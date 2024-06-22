@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.money-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.type {
+  font-size: 18px;
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+
+.amt {
+  font-size: 24px;
+  color: #0a8e6e;
+  font-weight: bold;
+}

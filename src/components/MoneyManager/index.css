@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 200px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.para {
+  font-size: 16px;
+  color: #666;
+}
+
+.inputs-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.adds {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.inp {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-btn {
+  padding: 10px;
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hist-table {
+  width: 50%;
+}
+
+.history {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.unorder {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-header,
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-title {
+  width: 20%;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.list-title:last-child {
+  width: 10%;
+}
+
+@media (max-width: 768px) {
+  .inputs-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form,
+  .hist-table {
+    width: 100%;
+  }
+}
